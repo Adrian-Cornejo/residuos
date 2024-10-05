@@ -20,31 +20,33 @@
     <section>
         
         <h2>Pedidos</h2>
-
+        <div class="center-items">
         <form action="" method="post">
             
-        <!- imputs ->
-        <label>Nombre:</label>
-        <input type="text" id=input placeholder="Ingrese su nombre" onfocus="this.placeholder= ''"  onblur="this.placeholder ='Ingrese su nombre'" >
-
-        <!-- Primera lista desplegable -->
-        <label for="localidad">Seleccionar Localidad:</label>
-            <select id="localidad" name="Localidad">
-                <option value="">Cargando Localidades...</option>
-            </select>
-
-
-        <label>Fecha de expedicion:</label>
-        <input type="date" id="fechaInput">
-
-        <label>Fecha de entrega:</label>
-        <input type="date" id="fechaInput">
-        <br>
-        <br>
-
-        <button type="submit" id="enviarBtn">Enviar</button>
+            <!- imputs ->
+            <label>Nombre:</label>
+            <input type="text" id=input placeholder="Ingrese su nombre" onfocus="this.placeholder= ''"  onblur="this.placeholder ='Ingrese su nombre'" >
+    
+            <!-- Primera lista desplegable -->
+            <label for="localidad">Seleccionar Localidad:</label>
+                <select id="localidad" name="Localidad">
+                    <option value="">Cargando Localidades...</option>
+                </select>
+    
+    
+            <label>Fecha de expedicion:</label>
+            <input type="date" id="fechaInput">
+    
+            <label>Fecha de entrega:</label>
+            <input type="date" id="fechaInput">
+            <br>
+            <br>
+    
+            <button type="submit" id="enviarBtn">Enviar</button>
+            
+            </form>
+        </div>
         
-        </form>
 
     </section>
 
