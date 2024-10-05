@@ -18,10 +18,11 @@
     <main>
 
     <section>
+        
         <h2>Pedidos</h2>
 
-
-
+        <form action="" method="post">
+            
         <!- imputs ->
         <label>Nombre:</label>
         <input type="text" id=input placeholder="Ingrese su nombre" onfocus="this.placeholder= ''"  onblur="this.placeholder ='Ingrese su nombre'" >
@@ -32,7 +33,18 @@
                 <option value="">Cargando Localidades...</option>
             </select>
 
-            
+
+        <label>Fecha de expedicion:</label>
+        <input type="date" id="fechaInput">
+
+        <label>Fecha de entrega:</label>
+        <input type="date" id="fechaInput">
+        <br>
+        <br>
+
+        <button type="submit" id="enviarBtn">Enviar</button>
+        
+        </form>
 
     </section>
 
